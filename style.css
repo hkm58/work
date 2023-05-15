@@ -1,0 +1,199 @@
+nav {
+  padding: 0;
+  background-image: url(../Images/background.jpeg);
+  margin: 0 auto;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: rgb(14, 130, 232);
+  flex-wrap: wrap;
+}
+.profile-details-name {
+  font-size: 24px;
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.primary-text {
+  color: black;
+}
+.highlighted-text {
+  color: gray;
+  font-size: 25px;
+  text-shadow: rgb(205, 122, 0) 0px 10px 10px;
+}
+.dynamic {
+  text-align: center;
+  flex-wrap: wrap;
+  border-right: 0.15em solid orange;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  padding-right: 5px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+}
+.primary-btn {
+  background-color: #27445c;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+.profile-options .primary-btn:hover {
+  border-color: rgb(205, 122, 0);
+}
+
+.highlighted-btn {
+  background-color: rgb(205, 122, 0);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  color: white;
+}
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  color: #111;
+}
+
+.colz .colz-icon i {
+  color: palevioletred;
+  height: 25px;
+  width: 25px;
+  padding: 8px;
+  padding-left: 0px;
+}
+.colz .colz-icon:hover {
+  transform: scale(1.5);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+}
+
+.heading {
+  text-align: center;
+}
+.highlght-heading {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+.highlight {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.highlight-blob {
+  height: 12px;
+  width: 12px;
+  margin: 0 10px 0 0;
+  background-color: rgb(205, 122, 0);
+  border-radius: 50%;
+}
+.project-image {
+  border-radius: 5%;
+  box-shadow: 12px 12px 2px 1px rgba(59, 59, 62, 0.2);
+}
+.project-description {
+  padding: 120px 60px;
+}
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: seagreen;
+  max-height: 100%;
+  max-width: 100%;
+}
+.foot-link {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .project-description {
+    text-align: center;
+    padding: 5px 5px;
+  }
+  .profile-role-tagline {
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+  }
+  .colz-icon {
+    padding-top: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .content-to-hide {
+    display: none;
+  }
+  .profile-picture-background {
+    width: 300px;
+  }
+  .profile-picture {
+    padding-right: 100px;
+  }
+  h3.skill-name {
+    font-size: 10px;
+  }
+}
