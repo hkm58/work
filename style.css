@@ -1,9 +1,10 @@
 nav {
+  background-image: url(../images/forest.jpeg);
   padding: 0;
-  background-image: url(../Images/background.jpeg);
   margin: 0 auto;
   width: 100%;
 }
+
 a {
   text-decoration: none;
 }
@@ -12,22 +13,6 @@ body {
   max-width: 100%;
   min-width: 100%;
 }
-
-.profile-parent {
-  display: flex;
-  align-items: center;
-  color: rgb(14, 130, 232);
-  flex-wrap: wrap;
-}
-.profile-details-name {
-  font-size: 24px;
-}
-.profile-details-role {
-  display: flex;
-  flex-direction: column;
-  margin: 14px 0 24px 0;
-}
-
 .primary-text {
   color: black;
 }
@@ -64,10 +49,7 @@ body {
     border-color: orange;
   }
 }
-.profile-role-tagline {
-  font-size: 19px;
-  margin: 5px 0 0 0;
-}
+
 .primary-btn {
   background-color: #27445c;
   margin: 20px;
@@ -77,7 +59,6 @@ body {
   text-transform: capitalize;
   color: white;
 }
-
 .profile-options .primary-btn:hover {
   border-color: rgb(205, 122, 0);
 }
@@ -93,9 +74,8 @@ body {
   margin: 0 0 0 28px;
   color: #111;
 }
-
 .colz .colz-icon i {
-  color: palevioletred;
+  color: white;
   height: 25px;
   width: 25px;
   padding: 8px;
@@ -152,7 +132,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  color: seagreen;
+  background-image: url(../images/background.jpeg);
   max-height: 100%;
   max-width: 100%;
 }
