@@ -11,24 +11,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>About Katie</title>
     <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-
-      .container-center {
-        margin: auto;
+      nav {
+        background-image: url(../images/background.jpeg);
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
       }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-dark mt-0 bg-body-tertiary">
-      <!-- Navbar content -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KmC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#top"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" tabindex="-1">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <div class="container-center m-4">
+    <div class="container m-4">
       <h1 class="mt-5">Learn about me</h1>
       <h3>Front-end developer from Belfast, Northern Ireland</h3>
       <div class="about-paragraphs">
