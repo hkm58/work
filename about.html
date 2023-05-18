@@ -9,75 +9,45 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
     <title>About Katie</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container-center {
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Katie McCracken</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#email">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="navbar navbar-dark mt-0 bg-body-tertiary">
+      <!-- Navbar content -->
     </nav>
 
-    <div class="container m-4">
-      <h1 class="mt-5">About me</h1>
-      <h3>Front-end developer from Belfast, Nothern Ireland</h3>
+    <div class="container-center m-4">
+      <h1 class="mt-5">Learn about me</h1>
+      <h3>Front-end developer from Belfast, Northern Ireland</h3>
       <div class="about-paragraphs">
         <p class="text-center">
-          Graduated in 2021 in Businesss Managment with law from Herriot-Watt  (2:1). With experiance in customer serves in different forms
-          being able to catering to many clientele.  Skills in computer progamming with knowledge in languages; HTML ,CSS ,GITHUB along with us of API.
-          
+          Graduated in 2021 in Business Management with Law from Herriot-Watt
+          (2:1). With experience in customer service in different forms, being
+          able to cater to many clientele. Skills in computer programming with
+          knowledge in languages; HTML, CSS, GitHub along with the use of APIs.
         </p>
-      </div>
-      <div class="container space-evenly">
-        <div class="row">
-          <div class="col-4">
-            <img
-              src="images/weather-app.png"
-              class="img-fluid shadow p-2 rounded"
-            />
-          </div>
-        <div class="col-4">
-          <img
-            src="images/worldclock.jpg"
-            class="img-fluid shadow p-2 rounded"
-          />
-        </div>
-        <div class="col-4">
-            <img
-              src="images/Dog-app.png"
-              class="img-fluid shadow p-2 rounded"
-            />
-          </div>
       </div>
       <div id="contact">
         <h2 class="mt-4">📮 Contact me</h2>
-   
+        <a class="mail" href="mailto:katielouise22@gmail.com">
+          <button class="btn primary-btn">katielouise22@gmail.com</button>
+        </a>
+        <a href="./katie-mcc-Resume.docx" download>
+          <button class="btn highlighted-btn">Download Resume</button>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
