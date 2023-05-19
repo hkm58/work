@@ -17,6 +17,30 @@
         margin: 0 auto;
         width: 100%;
       }
+
+      .container.m-4 {
+        text-align: center;
+      }
+
+      .profile-options .primary-btn:hover {
+        border-color: rgb(205, 122, 0);
+      }
+
+      .highlighted-btn {
+        background-color: rgb(205, 122, 0);
+        margin: 20px;
+        border-radius: 4px;
+        padding: 20px 20px;
+        color: white;
+      }
+      .profile-options .highlighted-btn:hover {
+        margin: 0 0 0 28px;
+        color: #111;
+      }
+
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -68,12 +92,14 @@
       </div>
       <div id="contact">
         <h2 class="mt-4">📮 Contact me</h2>
-        <a class="mail" href="mailto:katielouise22@gmail.com">
-          <button class="btn primary-btn">katielouise22@gmail.com</button>
-        </a>
-        <a href="./katie-mcc-Resume.docx" download>
-          <button class="btn highlighted-btn">Download Resume</button>
-        </a>
+        <div class="profile-options">
+          <a class="mail" href="mailto:katielouise22@gmail.com">
+            <button class="btn primary-btn">katielouise22@gmail.com</button>
+          </a>
+          <a href="./katie-mcc-Resume.docx" download>
+            <button class="btn highlighted-btn">Download Resume</button>
+          </a>
+        </div>
       </div>
     </div>
   </body>
